@@ -1,4 +1,22 @@
 body{
     font-family: 'Oswald', sans-serif;
-
+    background-color: #040b1e;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.flex-menu{
+    background-color:rgba(71, 255, 95, 0.521);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.flex-menu>div{
+    margin: 10px;
+}
+a:link a:visited,a:link:active,a:visited:active,a{
+    text-decoration: none;
+    color: white;
 }
