@@ -1,3 +1,8 @@
+body{
+
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
 .main{
     max-width: 100%;
     max-height: 100%;
@@ -6,9 +11,12 @@
     gap: 10px;
     grid-auto-rows: minmax(100px,auto)
 }
-
+a:link a:visited,a:link:active,a:visited:active,a{
+    text-decoration: none;
+    color: white;
+}
 .main>div{
-    border: 2px solid black;
+    border: 2px solid white;
     background-color:rgba(109, 109, 109, 02);
 }
 .responsive {
@@ -26,17 +34,16 @@
     
     grid-column-start: 1;
     grid-column-end: 1;
+    text-align: center;
 }
 
-.g2logo{
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
+
 
 .g2csmenu{
     
     grid-column-start: 3;
     grid-column-end: 3;
+    text-align: center;
 }
 
 .cs{
