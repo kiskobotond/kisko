@@ -4,34 +4,58 @@
     margin: 0 auto;
     display: grid;
     gap: 10px;
+    grid-auto-rows: minmax(100px,auto)
 }
 
 .main>div{
     border: 2px solid black;
     background-color:rgba(109, 109, 109, 02);
 }
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
 .header{
-    width: 300%;
+    grid-column-start: 1;
+    grid-column-end: 4;
     
 }
 
+.indexmenu{
+    
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.g2logo{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.g2csmenu{
+    
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
 .cs{
-    width: 100%;
+    
     grid-column-start: 1;
     grid-column-end: 1;
 }
 .lol{
-    width: 100%;
+    
     grid-column-start: 2;
     grid-column-end: 2;
 }
-.rocket{
-    width: 100%;
+.felsorolas{
+    
     grid-column-start: 3;
     grid-column-end: 3;
 }
 
 .footer{
-    width: 300%;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
