@@ -9,14 +9,36 @@ body{
 .flex-menu{
     background-color:rgba(71, 255, 95, 0.521);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    
     
 }
-.flex-menu>div{
+.flex-menu>div,.flex-csapat>div{
     margin: 10px;
+    
+}
+.flex-csapat>div{
+    margin: 10px;
+    max-width: 50%;
+}
+.flex-csapat{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+img{
+    max-height: 300px;
 }
 a:link a:visited,a:link:active,a:visited:active,a{
     text-decoration: none;
     color: white;
+}
+#csapat{
+    background-color:rgba(71, 255, 95, 0.521);
+}
+.flex-keret{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
